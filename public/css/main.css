@@ -1,0 +1,438 @@
+h2, h3 {
+
+    color:#666666 !important;
+}
+
+a:hover
+{
+    color:#678716;
+    text-decoration: none !important;
+}
+
+a:focus{
+    text-decoration: none !important;
+}
+
+.no-space [class*="span"] {
+    margin-left: 0;
+}
+
+.no-space {
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.header
+{
+    height:108px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+}
+
+.header ul li
+{
+    list-style: none;
+    display: inline;
+    margin-left:20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #666666;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.header a:hover {
+    color: #678716;
+    text-decoration: none;
+}
+
+.header a.active {
+    background-color: #aaa;
+    color: #678716;
+    cursor: default;
+}
+
+/* Sub Menus */
+.header li li {
+    font-size: .8em;
+}
+
+/* Sub Menus */
+.header li ul {
+    position: absolute;
+    display: none;
+    width: auto;
+    background-color: #F5F5F5;
+    box-shadow:0px 0px 3px rgba(0,0,0,.1);
+    margin-top: 20px;
+    right: 100px;
+    padding: 20px 40px 30px 32px;
+    z-index: 1094;
+}
+
+.header li:hover ul {
+    display: block;
+}
+
+.header li ul li {
+    display: block;
+}
+
+.menu-produto
+{
+    width:680px;
+    z-index: 1094;
+    background-color: #0000C2;
+
+}
+.menu-produtos
+{
+    width:220px;
+    margin-left: 6px;
+    float: left;
+}
+
+.menu-produtos div
+{
+    margin-left: 10px;
+    font-size: 16px;
+    width: auto;
+    word-wrap: break-word;
+
+}
+
+.menu-produtos img
+{
+    padding-bottom: 8px;
+}
+
+.img-applications
+{
+    width: 100%;
+    height: 100%;
+}
+
+.logo
+{
+    float: left;
+    margin-top: 23px;
+}
+
+.menu
+{
+    float: right;
+    margin-top: 67px;
+    margin-bottom: 8px !important;
+    min-height: 20px !important;
+}
+
+.product
+{
+    background-color: white ;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    padding-top: 1px;
+}
+
+.ver-mais
+{
+    text-align: center;
+    width: 68px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.ver-mais a
+{
+    color:#678716;
+}
+
+.ver-mais a:hover
+{
+    color:#3a470d;
+}
+
+.grupo
+{
+    background-color: white ;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.grupo img
+{
+    padding-bottom: 30px;
+}
+
+.grupo .saber-mais{
+
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.grupo-item
+{
+    background-color: white ;
+    box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.grupo-item p
+{
+    margin-top: 40px;
+}
+
+.product img
+{
+    width: 100%;
+}
+
+.product p, h4, h5
+{
+    padding: 10px;
+}
+
+.product .brand-title
+{
+    color: #CCC9C6;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.saber-mais
+{
+    padding-left: 10px;
+    padding-bottom: 8px;
+    width:86px;
+}
+
+.aplications
+{
+    background-color: #678716;
+    height: 265px;
+    color: white;
+}
+
+.aplications2
+{
+    background-color: #eeeeee;
+    height: 265px;
+    color: #666666;
+}
+
+.saber-mais-style
+{
+    color: #678716;
+
+}
+.saber-mais-style:hover
+{
+    text-decoration: none !important;
+    color: #3A470D !important;
+}
+
+.margin_app
+{
+    margin-bottom: 20px;
+
+}
+
+.row.no-pad {
+    margin-right:0;
+    margin-left:0;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #888888;
+
+}
+.row.no-pad > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+
+}
+
+#text_area1 {
+    width:450px;
+    float:right;
+    height: 180px;
+}
+
+#round1 {
+    height: 130px;
+    width: 130px;
+    -moz-border-radius: 65px;
+    border-radius: 65px;
+    background-color: #3a470d;
+    float:right;
+    margin-top: 70px;
+    margin-right: 20px;
+    color: white;
+    font-family: "Arial";
+}
+
+#text01 {
+    width:250px;
+    float:left;
+    color: white;
+    font-family: "Arial";
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+#icon_round1 {
+    display: block;
+    color:white;
+    margin-left: 38px;
+    margin-top: 26px;
+}
+
+#icon_text1 {
+    margin-left: 32px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 600;
+}
+
+#round2 {
+    height: 130px;
+    width: 130px;
+    -moz-border-radius: 65px;
+    border-radius: 65px;
+    background-color: #CCC9C6;
+    float: left;
+    margin-top: 70px;
+    margin-left: 20px;
+    color: white;
+    font-family: "Arial";
+}
+
+#text02 {
+    width: 250px;
+    float: right;
+    color: #434343;
+    font-family: "Arial";
+    font-size: 14px;
+    padding-top: 40px;
+    margin-right: 30px;
+}
+
+#icon_text2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 600;
+}
+
+.botao
+{
+    background-color: #678716 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    margin-bottom: 20px !important;
+    margin-top: 30px !important;
+    color:white !important;
+    padding: 10px 20px !important;
+}
+
+.footer
+{
+    font-size: 13px;
+    background-color: white;
+    border-top: 1px solid #EDEDED;
+    padding-top: 30px;
+    margin-top: 20px;
+
+}
+
+.footer-left {
+
+    padding-top: 5px;
+    padding-right: 40px !important;
+}
+
+.footer ul{
+    padding-left: 0;
+}
+
+.footer-left ul li {
+    line-height: 32px;
+    border-bottom: 1px solid #EEE;
+    list-style-type: none;
+}
+
+.footer a{
+    color:#678716;
+}
+
+.footer a:hover{
+    color:#678716 !important;
+}
+
+.footer h3
+{
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #EEE;
+    margin-top: 10px !important;
+    padding-bottom: 8px;
+}
+
+
+.footer-right {
+    border-left: 1px solid #EFEFEF;
+    padding: 5px 0 20px 4% !important;
+
+}
+
+.footer-right li
+{
+    list-style-type: none;
+}
+
+.footer-right form{
+    padding-bottom: 16px;
+}
+
+.footer-social li {
+    float: left;
+    list-style-type: none;
+    margin-right: 18px;
+}
+
+.footer-bottom
+{
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 11px;
+
+}
+
+.logo-cert
+{
+    margin-top: 40px;
+}
+
+.mail-icon
+{
+    font-size: 20px;
+}
+
+.mobile-icon{
+    font-size: 26px;
+    margin-left: 4px;
+}
+
+.spacing
+{
+    margin-top: 40px;
+}
+
+.colorir{
+
+    color:#678716 !important;
+}
